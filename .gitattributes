@@ -92,3 +92,6 @@ GRAPHICS
 # hex files
 *.hex binary
 *.eep binary
+
+# make sure script can still be executed no matter what platform the repository was cloned on
+bin/qmk eol=lf
